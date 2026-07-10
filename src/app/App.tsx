@@ -765,10 +765,10 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between gap-2">
           <span style={{ fontFamily: "'Playfair Display', serif" }} className="text-white/60 text-sm">Prof. Arun Kansal</span>
           <span style={{ fontFamily: "'DM Mono', monospace" }} className="text-white/30 text-xs text-center">
-            Director, ICWMR, TERI SAS · New Delhi-+-+
+            Director, ICWMR, TERI SAS · New Delhi
 
 
-            
+
           </span>
         </div>
       </footer>
