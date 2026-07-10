@@ -1,13 +1,13 @@
 {
   "name": "@figma/my-make-file",
-  "homepage": "https://pratibha1812.github.io/arun-kansal-portfolio",
   "private": true,
   "version": "0.0.1",
+  "engines": {
+  "node": "20.x"
+},
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "dev": "vite",
-    "predeploy": "npm run build",
 "deploy": "gh-pages -d dist"
   },
   "dependencies": {
