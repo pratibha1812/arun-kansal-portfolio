@@ -325,7 +325,7 @@ export default function App() {
             </h1>
 
             <p className="text-base md:text-lg text-muted-foreground mb-0.5 font-semibold font-light leading-relaxed">
-              Director, IPCA Center for WorldShperes Management Research
+              Director, IPCA Centre for WorldSpheres Management Research
             </p>
             <p className="text-base md:text-lg text-muted-foreground mb-0.5 font-semibold font-light leading-relaxed">
               TERI School of Advanced Studies
@@ -383,7 +383,7 @@ export default function App() {
                   Prof. Kansal has over 3 decades of professional experience in interdisciplinary research, consulting, and teaching spanning environmental science and climate policy, water resources management, air pollution, waste treatment, urban environment, and energy- environment- climate linkages.
                 </p>
                 <p className="text-base font-light leading-relaxed text-justify" style={{ color: "#ffffff" }}>
-                  He has served as Vice Chancellor (Acting), Dean (Academic), and Dean (Research and Partnership). He is the Director of the Centre of Excellence (IPCA Centre for WorldShperes Management Research) at TERI School of Advanced Studies, New Delhi.
+                  He has served as Vice Chancellor (Acting), Dean (Academic), and Dean (Research and Partnership). He is the Director of the Centre of Excellence (IPCA Centre for WorldSpheres Management Research) at TERI School of Advanced Studies, New Delhi.
                 </p>
                 <p className="text-base font-light leading-relaxed text-justify" style={{ color: "#ffffff" }}>
                   An interdisciplinarian at heart- graduating in Civil Engineering, pursuing M.Tech in Environmental Engineering, and completing a Ph.D. with econometric applications- he has designed and executed projects spanning technology, policy, and management aspects of sustainability science.
@@ -578,7 +578,7 @@ export default function App() {
       <section id="publications" className="py-20 md:py-20 bg-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <SectionHeading number="06 / Publications" title="Recent Work"
-            subtitle="100 publications. Google Scholar H-Index: 33 · Scopus H-Index: 25 · Citations: 6,250+" />
+            subtitle="Publications: 100. Google Scholar H-Index: 33 · Scopus H-Index: 25 · Citations: 6,250+" />
           <div className="space-y-4">
             {publications.map((pub, i) => (
               <motion.div key={i}
@@ -765,7 +765,10 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col md:flex-row items-center justify-between gap-2">
           <span style={{ fontFamily: "'Playfair Display', serif" }} className="text-white/60 text-sm">Prof. Arun Kansal</span>
           <span style={{ fontFamily: "'DM Mono', monospace" }} className="text-white/30 text-xs text-center">
-            Director, ICWMR · TERI SAS · New Delhi
+            Director, ICWMR, TERI SAS · New Delhi-+-+
+
+
+            
           </span>
         </div>
       </footer>
